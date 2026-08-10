@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:authentication-event-and-audit-contract",
+  "number": 2004,
+  "slug": "authentication-event-and-audit-contract",
+  "title": "Authentication Event And Audit Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines authentication-event evidence and retention.",
+  "body": "## Requirements\n\n- Record subject, verifier, authenticator class, achieved AAL, result, and time.\n- Protect authentication evidence from tampering and unnecessary disclosure.\n- Link recovery, binding, revocation, and risk events when relevant.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://pages.nist.gov/800-63-4/sp800-63b.html"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "authentication",
+    "aal",
+    "authenticator",
+    "recovery",
+    "nist-800-63b"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:aal-governs-authenticator-and-authentication-strength",
+    "adr:authenticator-binding-replacement-and-revocation-are-governed",
+    "adr:account-recovery-must-preserve-target-assurance",
+    "adr:authentication-events-require-assurance-evidence"
+  ]
+}

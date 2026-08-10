@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:authenticator-binding-replacement-and-revocation-are-governed",
+  "number": 1001,
+  "slug": "authenticator-binding-replacement-and-revocation-are-governed",
+  "title": "Authenticator Binding Replacement And Revocation Are Governed",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Authenticator binding, replacement, suspension, and revocation are governed lifecycle events.",
+  "body": "Authenticator binding, replacement, suspension, and revocation are governed lifecycle events.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://pages.nist.gov/800-63-4/sp800-63b.html"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "authentication",
+    "aal",
+    "authenticator",
+    "recovery",
+    "nist-800-63b"
+  ]
+}

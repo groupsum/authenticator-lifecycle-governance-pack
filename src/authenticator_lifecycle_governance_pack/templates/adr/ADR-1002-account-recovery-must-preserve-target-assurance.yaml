@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:account-recovery-must-preserve-target-assurance",
+  "number": 1002,
+  "slug": "account-recovery-must-preserve-target-assurance",
+  "title": "Account Recovery Must Preserve Target Assurance",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Account recovery and reset do not silently reduce the target assurance level.",
+  "body": "Account recovery and reset do not silently reduce the target assurance level.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://pages.nist.gov/800-63-4/sp800-63b.html"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "authentication",
+    "aal",
+    "authenticator",
+    "recovery",
+    "nist-800-63b"
+  ]
+}

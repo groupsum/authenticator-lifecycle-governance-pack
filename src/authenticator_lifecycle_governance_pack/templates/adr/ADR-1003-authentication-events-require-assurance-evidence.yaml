@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:authentication-events-require-assurance-evidence",
+  "number": 1003,
+  "slug": "authentication-events-require-assurance-evidence",
+  "title": "Authentication Events Require Assurance Evidence",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Authentication events record sufficient evidence to substantiate the achieved assurance.",
+  "body": "Authentication events record sufficient evidence to substantiate the achieved assurance.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://pages.nist.gov/800-63-4/sp800-63b.html"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "authentication",
+    "aal",
+    "authenticator",
+    "recovery",
+    "nist-800-63b"
+  ]
+}

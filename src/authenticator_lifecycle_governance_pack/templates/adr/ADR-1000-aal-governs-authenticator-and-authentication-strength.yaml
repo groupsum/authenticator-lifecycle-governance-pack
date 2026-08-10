@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:aal-governs-authenticator-and-authentication-strength",
+  "number": 1000,
+  "slug": "aal-governs-authenticator-and-authentication-strength",
+  "title": "AAL Governs Authenticator And Authentication Strength",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "AAL governs authenticator and authentication-event strength rather than identity proofing or permissions.",
+  "body": "AAL governs authenticator and authentication-event strength rather than identity proofing or permissions.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://pages.nist.gov/800-63-4/sp800-63b.html"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "authentication",
+    "aal",
+    "authenticator",
+    "recovery",
+    "nist-800-63b"
+  ]
+}

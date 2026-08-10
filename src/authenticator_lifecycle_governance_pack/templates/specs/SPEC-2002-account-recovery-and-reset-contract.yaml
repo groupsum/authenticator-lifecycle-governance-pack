@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:account-recovery-and-reset-contract",
+  "number": 2002,
+  "slug": "account-recovery-and-reset-contract",
+  "title": "Account Recovery And Reset Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines recovery factors, reset workflows, and reproofing boundaries.",
+  "body": "## Requirements\n\n- Treat recovery as a privileged authenticator lifecycle event.\n- Require recovery evidence commensurate with target assurance.\n- Apply notification, delay, review, and fraud controls to high-risk recovery.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://pages.nist.gov/800-63-4/sp800-63b.html"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "authentication",
+    "aal",
+    "authenticator",
+    "recovery",
+    "nist-800-63b"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:aal-governs-authenticator-and-authentication-strength",
+    "adr:authenticator-binding-replacement-and-revocation-are-governed",
+    "adr:account-recovery-must-preserve-target-assurance",
+    "adr:authentication-events-require-assurance-evidence"
+  ]
+}
