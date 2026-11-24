@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "authenticator-lifecycle-governance-pack"
-version = "0.1.0.dev1"
+version = "0.1.0.dev2"
 description = "Governance for AAL, authenticator binding, activation, replacement, recovery, reset, revocation, failure controls, and authentication evidence."
 readme = "README.md"
 requires-python = ">=3.10,<3.15"
